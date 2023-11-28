@@ -52,6 +52,7 @@ target_link_libraries(
         Mapbox::Base::Extras::rapidjson
         Mapbox::Map
         mbgl-compiler-options
+	mbgl-vendor-tinygltf
         Mapbox::Base::cheap-ruler-cpp
 )
 

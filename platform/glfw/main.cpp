@@ -12,6 +12,11 @@
 #include <mbgl/util/platform.hpp>
 #include <mbgl/util/string.hpp>
 
+#define TINYGLTF_IMPLEMENTATION
+#define STB_IMAGE_IMPLEMENTATION
+#define STB_IMAGE_WRITE_IMPLEMENTATION
+#include <tiny_gltf.h>
+
 #include <args.hxx>
 
 #include <csignal>
